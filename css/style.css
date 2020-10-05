@@ -8,7 +8,7 @@
   --basic-transparent-white: rgba(255, 255, 255, 0.9);
   --basic-light-blue: #81B3D2;
   --basic-extra-light-gray: #F2F2F2;
-
+  --basic-dark-gray: #666666;
   --basic-light-brown: #766357;
   --basic-brown: #604E43;
   --basic-dark-brown: #503E33;
@@ -33,6 +33,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--basic-black);
 }
 
 img {
@@ -52,7 +53,7 @@ img {
   list-style: none;
 }
 
-.site-navigation-current a:not([href]) {
+.site-navigation-current:not([href]) {
   color: var(--basic-light-brown);
 }
 
@@ -63,6 +64,13 @@ img {
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: var(--basic-blue);
+}
+.site-navigation a:active {
+  color: var(--basic-light-brown);
+}
+
+.welcome {
+  background: url(/img/background_photo.png) no-repeat center;
 }
 
 .welcome, .welcome-info, .benefits-text {
@@ -193,7 +201,6 @@ img {
   background-color: var(--basic-dark-brown);
 }
 
-
 .main-footer {
   background-color: var(--basic-transparent-white);
 }
@@ -211,6 +218,16 @@ img {
   list-style: none;
 }
 
+
+
+.socials-item {
+  background-image: url(/img/RectangleY.svg);
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-top: 5px;
+  
+}
+
 .socials-item a {
   color: var(--basic-light-blue);
 }
@@ -218,7 +235,7 @@ img {
 .socials-item a:hover {
   color: var(--basic-blue);
 }
-
+ 
 .socials-item a:focus {
   color: var(--basic-dark-blue);
 }
@@ -229,3 +246,113 @@ img {
   font-weight: normal;
 }
 
+
+
+site-navigation-current a:not(href) {
+  color: var(--basic-light-brown);
+}
+
+.search-result-number {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.sorting {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.sorting-list {
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.sorting-item {
+  color: var(--basic-black);
+}
+
+.price a:hover,
+.type a:hover,
+.rating a:hover {
+  color: var(--basic-light-blue);
+}
+
+.price a:focus,
+.type a:focus,
+.rating a:focus {
+  color: var(--basic-black);
+}
+
+.price a:active,
+.type a:active,
+.rating a:active {
+  color: var(--basic-light-blue);
+}
+
+.result-list {
+  list-style: none;
+}
+
+
+.hotel-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.hotel-title a:hover {
+  color: var(--basic-light-blue);
+}
+
+.hotel-info a:focus {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.hotel-info {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: var(--basic-dark);
+}
+
+.rating-tag {
+  color: var(--basic-dark-gray);
+  background-color: var(--basic-extra-light-gray);
+}
+
+.details {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: var(--basic-white);
+  background-color: var(--basic-light-blue);
+}
+
+.details:hover {
+  background-color: var(--basic-blue);
+}
+
+.details:focus {
+  background-color: var(--basic-dark-blue);
+}
+
+.book-button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: var(--basic-white);
+  text-transform: uppercase;
+  background-color: var(--basic-light-brown);
+}
+
+.book-button:hover {
+  background-color: var(--basic-brown);
+}
+
+.book-button:focus {
+  background-color: var(--basic-dark-brown);
+}
