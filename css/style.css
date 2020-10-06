@@ -42,6 +42,20 @@ img {
 }
 
 
+.font-size-21 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+  line-height: 18px;
+}
 
 .main-navigation {
   font-size: 14px;
@@ -77,11 +91,6 @@ img {
   text-align: center;
 }
 
-.welcome-info {
-  font-size: 21px;
-  line-height: 26px;
-}
-
 .benefits-text {
   font-weight: normal;
   color: var(--basic-dark);
@@ -99,8 +108,6 @@ img {
 }
 
 .benefits-info-1 , .benefits-number-1 {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-white);
 }
@@ -119,8 +126,6 @@ img {
 }
 
 .features-info {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-dark);
 }
@@ -142,8 +147,6 @@ img {
 }
 
 .benefits-number-2 , .benefits-info-2 {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-white);
 }
@@ -160,8 +163,6 @@ img {
 }
 
 .benefits-number, .benefits-info {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-dark);
 }
@@ -177,15 +178,11 @@ img {
 }
 
 .hotel-search-text {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-dark);
 }
 
 .button {
-  font-size: 21px;
-  line-height: 26px;
   font-weight: bold;
   color: var(--basic-white);
 }
@@ -203,11 +200,6 @@ img {
 
 .main-footer {
   background-color: var(--basic-transparent-white);
-}
-
-.contacts {
-  font-size: 21px;
-  line-height: 26px;
 }
 
 .contacts a{
@@ -252,21 +244,12 @@ site-navigation-current a:not(href) {
   color: var(--basic-light-brown);
 }
 
-.search-result-number {
-  font-size: 21px;
-  line-height: 26px;
-}
-
 .sorting {
-  font-size: 12px;
-  line-height: 18px;
   font-weight: normal;
 }
 
 .sorting-list {
   list-style: none;
-  font-size: 12px;
-  line-height: 18px;
   font-weight: normal;
 }
 
@@ -298,8 +281,6 @@ site-navigation-current a:not(href) {
 
 
 .hotel-title {
-  font-size: 21px;
-  line-height: 26px;
   font-weight: bold;
 }
 
@@ -313,8 +294,6 @@ site-navigation-current a:not(href) {
 }
 
 .hotel-info {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: normal;
   color: var(--basic-dark);
 }
@@ -325,8 +304,6 @@ site-navigation-current a:not(href) {
 }
 
 .details {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: bold;
   color: var(--basic-white);
   background-color: var(--basic-light-blue);
@@ -341,8 +318,6 @@ site-navigation-current a:not(href) {
 }
 
 .book-button {
-  font-size: 14px;
-  line-height: 21px;
   font-weight: bold;
   color: var(--basic-white);
   text-transform: uppercase;
