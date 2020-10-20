@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page-body">
-<header clas="main-header">
+<header class="main-header">
   <a class="main-header-logo">
-    <img src="img/logo.svg" alt="Логотип города Седона">
+    <img src="img/logo.svg" width="138" height="70" alt="Логотип города Седона">
   </a>
   <nav class="main-navigation">
     <ul class="site-navigation">
@@ -29,14 +29,18 @@
   </section>
   <p class="welcome-info font-size-21">Седона - небольшой городок в Аризоне,заслуживающий большего!</p>
   <p class="benefits-text">Рассмотрим 5 причин,по которым Седона круче,чем Гранд Каньон!</p>
+  <h2>Преимущества</h2>
   <section class="benefit-1">
-    <h2>Преимущества</h2>
-    <h3 class="benefits-title-1">Настоящий городок</h3>
-    <span class="benefits-number-1 font-size-14">- №1 -</span>
-    <p class="benefits-info-1 font-size-14">Седона - не аттракцион для туристов,там течет своя жизнь</p>
+    <div class="benefit1-text-container">   
+      <h3 class="benefits-title-1">Настоящий городок</h3>
+      <span class="benefits-number-1 font-size-14">- №1 -</span>
+      <p class="benefits-info-1 font-size-14">Седона - не аттракцион для туристов,там течет своя жизнь</p>
+    </div> 
+    <div class="benefit1-image-container">
       <a class="benefits-image" href="#">
         <img src="img/hotel.png" alt="Картинка гостиницы" width="800" height="256">
       </a>
+    </div>   
   </section>
   <section class="features">
     <ul class="features-list">
@@ -48,42 +52,49 @@
       <li class="features-item">
         <img src="img/burger-icon.svg" alt="Иконка еды">
         Еда
-        <p class="features-info">Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
+        <p class="features-info font-size-14">Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
       </li>
       <li class="features-item">
         <img src="img/gift-icon.svg" alt="Иконка сувениров">
         Сувениры
-        <p class="features-info">Не только китайского, но и местного производства!</p>
+        <p class="features-info font-size-14">Не только китайского, но и местного производства!</p>
       </li>    
     </ul>
   </section>
   <section class="benefit-2">
-    <ul class="benefits-list">
-      <li class="benefits-item-2">
+      <div class="benefit2-text-container">
         <h3 class="benefits-title-2">Там есть мост Дьявола</h3>
         <span class="benefits-number-2 font-size-14">- №2 -</span>
         <p class="benefits-info-2 font-size-14">Да,по нему можно пройти!Если конечно вы осмелетесь</p>
+      </div>
+
+      <div class="benefit2-image-container">
         <a class="benefits-image" href="#">
           <img src="img/bridge.png" alt="Мост Дьявола" width="800" height="256">
         </a>
-      </li>
-      <li class="benefits-item">
+      </div> 
+  </section>
+
+  <section class="other-benefits">
+    <ul class="benefits-list">
+      <li class="benefits-item benefit-3">
         <h3 class="benefits-title">Небольшая площадь</h3>
         <span class="benefits-number font-size-14">- №3 -</span>
         <p class="benefits-info font-size-14">Все достопримечательности находятся очень близко</p>
       </li>
-      <li class="benefits-item">
+      <li class="benefits-item benefit-4">
         <h3 class="benefits-title">Красивая дорога</h3>
         <span class="benefits-number font-size-14">- №4 -</span>
         <p class="benefits-info font-size-14">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </li>
-      <li class="benefits-item">
+      <li class="benefits-item benefit-5">
         <h3 class="benefits-title">Мало туристов</h3>
         <span class="benefits-number font-size-14">- №5 -</span>
         <p class="benefits-info font-size-14">Большинство едет в Гранд Каньон  и толпится там</p>
       </li>
     </ul>
   </section>
+  
   <section class="hotel-search">
     <h2 class="hotel-search-title">Заинтересовались?</h2>
     <p class="hotel-search-text font-size-14">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
