@@ -9,13 +9,13 @@
   </head>
   <body class="page-body">
 <header class="main-header">
-  <a class="main-header-logo">
-    <img src="img/logo.svg" width="138" height="70" alt="Логотип города Седона">
-  </a>
   <nav class="main-navigation">
     <ul class="site-navigation">
       <li><a href="blank.html">Информация</a></li>
       <li><a href="blank.html">Фото и видео</a></li>
+      <a class="main-header-logo">
+        <img src="img/logo.svg" width="138" height="70" alt="Логотип города Седона">
+      </a>
       <li><a href="blank.html">Карта штата</a></li>
       <li><a href="hotels.html">Гостиницы</a></li>
     </ul>
@@ -23,13 +23,13 @@
 </header>
 
 <main class="container">
-  <h1>Седона</h1>
+  <h1 class="visually-hidden">Седона</h1>
   <section class="welcome">
     <img src="img/welcome.svg" alt="Welcome">
   </section>
-  <p class="welcome-info font-size-21">Седона - небольшой городок в Аризоне,заслуживающий большего!</p>
+  <p class="welcome-info font-size-21">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
   <p class="benefits-text">Рассмотрим 5 причин,по которым Седона круче,чем Гранд Каньон!</p>
-  <h2>Преимущества</h2>
+  <h2 class="visually-hidden">Преимущества</h2>
   <section class="benefit-1">
     <div class="benefit1-text-container">   
       <h3 class="benefits-title-1">Настоящий городок</h3>
@@ -45,18 +45,18 @@
   <section class="features">
     <ul class="features-list">
       <li class="features-item">
-        <img src="img/house-icon.svg" alt="Иконка гостиницы">
-        Жилье
-        <p class="features-info font-size-14">Рекомендуем пожить в настоящем мотеле,все как в кино!</p>
+          <img src="img/house-icon.svg" alt="Иконка гостиницы">
+          <span>Жилье</span>
+          <p class="features-info font-size-14">Рекомендуем пожить в настоящем мотеле,все как в кино!</p>
       </li>
       <li class="features-item">
         <img src="img/burger-icon.svg" alt="Иконка еды">
-        Еда
-        <p class="features-info font-size-14">Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
+        <span>Еда</span>
+        <p class="features-info font-size-14">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </li>
       <li class="features-item">
         <img src="img/gift-icon.svg" alt="Иконка сувениров">
-        Сувениры
+        <span>Сувениры</span>
         <p class="features-info font-size-14">Не только китайского, но и местного производства!</p>
       </li>    
     </ul>
@@ -65,7 +65,7 @@
       <div class="benefit2-text-container">
         <h3 class="benefits-title-2">Там есть мост Дьявола</h3>
         <span class="benefits-number-2 font-size-14">- №2 -</span>
-        <p class="benefits-info-2 font-size-14">Да,по нему можно пройти!Если конечно вы осмелетесь</p>
+        <p class="benefits-info-2 font-size-14">Да,по нему можно пройти! Если конечно вы осмелетесь</p>
       </div>
 
       <div class="benefit2-image-container">
@@ -80,17 +80,20 @@
       <li class="benefits-item benefit-3">
         <h3 class="benefits-title">Небольшая площадь</h3>
         <span class="benefits-number font-size-14">- №3 -</span>
-        <p class="benefits-info font-size-14">Все достопримечательности находятся очень близко</p>
+        <p class="benefits-info font-size-14">все достопримечательности
+          находятся очень близко</p>
       </li>
       <li class="benefits-item benefit-4">
         <h3 class="benefits-title">Красивая дорога</h3>
         <span class="benefits-number font-size-14">- №4 -</span>
-        <p class="benefits-info font-size-14">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        <p class="benefits-info font-size-14">ехать в седону из лас-вегаса совсем
+          не&nbsp;скучно!</p>
       </li>
       <li class="benefits-item benefit-5">
         <h3 class="benefits-title">Мало туристов</h3>
         <span class="benefits-number font-size-14">- №5 -</span>
-        <p class="benefits-info font-size-14">Большинство едет в Гранд Каньон  и толпится там</p>
+        <p class="benefits-info font-size-14">Большинство едет в гранд каньон
+          и толпится там</p>
       </li>
     </ul>
   </section>
@@ -98,9 +101,9 @@
   <section class="hotel-search">
     <h2 class="hotel-search-title">Заинтересовались?</h2>
     <p class="hotel-search-text font-size-14">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-    <button class="button font-size-21" type="button">Поиск гостиницы в Седоне</button>
+    <button class="button search-button font-size-21" type="button">Поиск гостиницы в Седоне</button>
   </section>
-  <!-- Здесь будет интерактивная карта -->
+  <!-- Карта-->
 </main>
 <footer class="page-footer main-footer">
   <section class="contacts font-size-21">
